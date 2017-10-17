@@ -43,7 +43,9 @@ def updateavg(ids):
     avg = sum // count                      
     command = "UPDATE peeps_avg SET avg = %d WHERE id = %d;"%(ids,avg)
     c.execute(command)
-        
+
+def addrows(
+    
 adddata(avg())
 
 db.commit()
